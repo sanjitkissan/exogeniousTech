@@ -1,0 +1,6 @@
+export {default as High_Return} from "./high-return.png"
+export {default as Large_Cap} from "./large-cap.png"
+export {default as Mid_Cap} from "./mid-cap.png"
+export {default as Sip_With} from "./sip-with.png"
+export {default as Small_Cap} from "./small-cap.png"
+export {default as Tax_saving} from "./tax-saving.png"
