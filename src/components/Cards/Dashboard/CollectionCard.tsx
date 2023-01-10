@@ -1,5 +1,5 @@
 import React from 'react'
-import { collectionArrayType } from '../.././type/MutualFundDashboard'
+import { collectionArrayType } from '../../../type/MutualFundDashboard'
 
 type prop ={
     item:collectionArrayType

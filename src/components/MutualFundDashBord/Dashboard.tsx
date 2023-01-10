@@ -2,7 +2,7 @@
 import React from 'react'
 import PopularFunds from './PopularFunds'
 import Collection from './Collection'
-import HeroCard from '../.././components/Cards/HeroCard'
+import HeroCard from '../Cards/Dashboard/HeroCard'
 import { heroCardArr } from 'utils/MutualfundDashboard'
 import QuickAccess from './QuickAccess'
 

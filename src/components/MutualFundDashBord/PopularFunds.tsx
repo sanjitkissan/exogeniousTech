@@ -1,7 +1,7 @@
 import React from "react";
 import "../.././index.css";
 import FilterListIcon from "@mui/icons-material/FilterList";
-import FundCard from "../.././components/Cards/FundCard";
+import FundCard from "../Cards/Dashboard/FundCard";
 import { fundCardArr } from "../.././utils/MutualfundDashboard";
 
 export default function PopularFunds() {
@@ -23,7 +23,7 @@ export default function PopularFunds() {
         </div>
         <div className="w-full flex items-center justify-between gap-4">
           {fundCardArr.map((item)=>(
-          <FundCard item={item}/>
+          <FundCard item={item} key={item.id}/>
           ))}
         </div>
       </section>

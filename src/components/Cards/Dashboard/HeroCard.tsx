@@ -1,5 +1,5 @@
 import React from 'react'
-import { heroArrType } from '../.././type/MutualFundDashboard'
+import { heroArrType } from '../../../type/MutualFundDashboard'
 
 type prop = {
     item:heroArrType

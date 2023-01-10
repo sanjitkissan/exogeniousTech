@@ -1,12 +1,12 @@
 import React from "react";
-import "../.././index.css";
-import { fundCardType } from "../.././type/MutualFundDashboard";
+
+import { fundCardType } from "../../../type/MutualFundDashboard";
 type prop = {
   item: fundCardType;
 };
 export default function FundCard({ item }: prop) {
   return (
-    <section className="w-full h-40 p-2 rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col items-start justify-center gap-4 hover:scale-105 transition-all ease-in-out duration-500 overflow-hidden">
+    <section className="w-full h-40 p-2 rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col items-start justify-center gap-4 hover:scale-110 !transition-all !ease-in-out !duration-500 overflow-hidden cursor-pointer">
       <img
         src={item.logo}
         alt="loading"

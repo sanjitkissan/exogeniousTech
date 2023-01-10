@@ -1,5 +1,5 @@
 import React from 'react'
-import { quickAccessArrayType } from '../.././type/MutualFundDashboard'
+import { quickAccessArrayType } from '../../../type/MutualFundDashboard'
 type prop = {
     item:quickAccessArrayType
 }
