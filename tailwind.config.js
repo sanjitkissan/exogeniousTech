@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       colors: {
         siteTheme: "#140342",
-        textTheme: "#4af8d5",
+        textTheme: "#2fcfaf",
         cardTheme: "rgb(31,35,47)",
       },
     },
