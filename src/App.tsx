@@ -5,6 +5,8 @@ import './App.css';
 import "./index.css"
 import MutualFundMainPage from './pages/MutualFundDashBoard';
 import Holdings from './components/CardPages/Holdings';
+import Cardmainpage from './components/CardPages/Cardmainpage';
+
 
 function App() {
       
@@ -14,7 +16,8 @@ function App() {
     <div className='w-full '>
         {/* <MutualFundMainPage/> */}
         {/* <FAQS/> */}
-      <Holdings/>
+      {/* <Holdings/> */}
+      <Cardmainpage/>
     </div>
    
   );
