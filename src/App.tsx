@@ -6,6 +6,8 @@ import "./index.css"
 import MutualFundMainPage from './pages/MutualFundDashBoard';
 import Holdings from './components/CardPages/Holdings';
 import Cardmainpage from './components/CardPages/Cardmainpage';
+import SignUpForm from './components/Form/SignUpForm';
+import LoginPage from 'components/mutualfund/LoginPage';
 
 
 function App() {
@@ -17,10 +19,13 @@ function App() {
         {/* <MutualFundMainPage/> */}
         {/* <FAQS/> */}
       {/* <Holdings/> */}
-      <Cardmainpage/>
+      {/* <Cardmainpage/> */}
+      {/* <SignUpForm/> */}
+      <LoginPage/>
     </div>
    
   );
 }
 
 export default App;
+
