@@ -7,7 +7,7 @@ type formikType ={
     mobileNumber:string;
     otp:string;
   }
-export default function MobileNoVerification() {
+export default function MobileNoVerification({setLogIn}:any) {
     let initialValues:formikType = {
         mobileNumber:'',
         otp:""
@@ -25,6 +25,7 @@ export default function MobileNoVerification() {
             icon: "success",
           });
           console.log(values);
+          setLogIn(false)
         }
       })
   return (

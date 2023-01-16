@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        siteTheme: "#140342",
+        BmTheme: "#042567",
         textTheme: "#2fcfaf",
         cardTheme: "rgb(31,35,47)",
       },

@@ -1,14 +1,13 @@
 import React from 'react'
 import TextField from '@mui/material/TextField';
 import { FormikHelpers, useFormik } from "formik";
-import Swal from "sweetalert2";
 import * as Yup from "yup";
 
 type formikType ={
   email:string;
   otp:string;
 }
-export default function SignUpForm({isSignUp, open}:any) {
+export default function SignUpForm({setIsSignUp}:any) {
 
   let initialValues:formikType = {
     email:'',
@@ -24,16 +23,16 @@ export default function SignUpForm({isSignUp, open}:any) {
     }),
     onSubmit:(values: formikType, props: FormikHelpers<formikType>)=>{
       props.resetForm();
-      Swal.fire({
-        title: "Submitted Successfully",
-        icon: "success",
-      });
+     
       console.log(values);
+      setIsSignUp(true)
     }
   })
 
   return (
-    <section className='w-full flex flex-col items-center justify-center gap-6 '>
+    <form className='w-full flex flex-col items-center justify-center gap-6 '
+    onSubmit={()=>formik.handleSubmit()}
+    >
       <TextField
       type={"email"}
       name={"email"}
@@ -67,11 +66,8 @@ export default function SignUpForm({isSignUp, open}:any) {
       className={`$ ${
           formik.isValid ? "bg-gradient-to-r from-blue-500 to-red-500" : "bg-gray-400"
         }  px-8 py-3 text-white text-xl font-extrabold rounded bg-gradient-to-r fr0m from-blue-600 to-red-600`}
-      onClick={()=>{
-        formik.handleSubmit()
-        open(true)
-      }}
+      
       >proceed</button>
-    </section>
+    </form>
   )
 }
