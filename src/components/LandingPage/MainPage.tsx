@@ -3,6 +3,7 @@ import React from 'react'
 import BreadCrumb from './BreadCrumb'
 import Header from './Header'
 import KeepLearning from './KeepLearning'
+import Review from './Review'
 import YourMoney from './YourMoney'
 
 export default function MainPage() {
@@ -13,6 +14,7 @@ export default function MainPage() {
         <BreadCrumb/>
         <YourMoney/>
         <KeepLearning/>
+        <Review/>
       </div>
     </section>
   )
