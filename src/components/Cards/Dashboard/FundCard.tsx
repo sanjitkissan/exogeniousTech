@@ -1,6 +1,6 @@
 import React from "react";
 import "../.././index.css";
-import { fundCardType } from "../.././type/MutualFundDashboard";
+import { fundCardType } from "../../../type/MutualFundDashboard";
 type prop = {
   item: fundCardType;
 };

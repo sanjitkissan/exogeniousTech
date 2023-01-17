@@ -1,4 +1,4 @@
-import CollectionCard from '../.././components/Cards/CollectionCard'
+import CollectionCard from '../Cards/Dashboard/CollectionCard'
 import React from 'react'
 import { collectionArr } from '../.././utils/MutualfundDashboard'
 

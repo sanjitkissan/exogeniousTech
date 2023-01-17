@@ -1,4 +1,4 @@
-import QuickAccessCard from '../.././components/Cards/QuickAccessCard'
+import QuickAccessCard from '../Cards/Dashboard/QuickAccessCard'
 import React from 'react'
 import { quickAccessArr } from '../.././utils/MutualfundDashboard'
 

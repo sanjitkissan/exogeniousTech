@@ -1,7 +1,7 @@
 import React from "react";
 import "../.././index.css";
 import FilterListIcon from "@mui/icons-material/FilterList";
-import FundCard from "../.././components/Cards/FundCard";
+import FundCard from "../Cards/Dashboard/FundCard";
 import { fundCardArr } from "../.././utils/MutualfundDashboard";
 
 export default function PopularFunds() {
