@@ -8,10 +8,10 @@ import YourMoney from './YourMoney'
 
 export default function MainPage() {
   return (
-    <section className=' w-full flex flex-col items-start justify-start gap-6'>
+    <section className=' w-full flex flex-col items-start justify-start '>
       <Header/>
-      <div className='w-full main-container flex flex-col items-start justify-start gap-6'>
         <BreadCrumb/>
+      <div className='w-full main-container flex flex-col items-start justify-start gap-6'>
         <YourMoney/>
         <KeepLearning/>
         <Review/>

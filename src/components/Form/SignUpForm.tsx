@@ -30,7 +30,7 @@ export default function SignUpForm({setIsSignUp}:any) {
   })
 
   return (
-    <form className='w-full flex flex-col items-center justify-center gap-6 '
+    <form className='w-full flex flex-col items-center justify-center gap-4 '
     onSubmit={()=>formik.handleSubmit()}
     >
       <TextField
@@ -47,6 +47,9 @@ export default function SignUpForm({setIsSignUp}:any) {
       label="Enter your email"
       id="fullWidth"
       />
+      <span className='w-full flex items-center justify-end'>
+        <button className='text-white bg-blue-600 rounded-md p-1 uppercase'>get otp</button>
+      </span>
       <TextField
       type={"number"}
       name={"otp"}

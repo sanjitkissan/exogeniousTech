@@ -29,7 +29,7 @@ export default function MobileNoVerification({setLogIn}:any) {
         }
       })
   return (
-    <section className='w-full flex flex-col items-center justify-center gap-6 '>
+    <section className='w-full flex flex-col items-center justify-center gap-4 '>
     <TextField
     type={"number"}
     name={"mobileNumber"}
@@ -44,6 +44,9 @@ export default function MobileNoVerification({setLogIn}:any) {
     label="Enter your mobileNumber"
     id="fullWidth"
     />
+    <span className='w-full flex items-center justify-end'>
+        <button className='text-white bg-blue-600 rounded-md p-1 uppercase'>get otp</button>
+      </span>
     <TextField
     type={"number"}
     name={"otp"}

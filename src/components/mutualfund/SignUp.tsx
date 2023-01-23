@@ -27,11 +27,11 @@ export default function SignUp() {
             <CloseIcon className='absolute top-1 right-1 cursor-pointer !font-extrabold' onClick={()=>setLogIn(false)}/>
             <h1 className='capitalize w-full text-center text-3xl font-extrabold'>welcome to bullSmart</h1>
             <SignUpForm setIsSignUp={setIsSignUp}/>
+            <h1 className='w-full text-center text-xl font-normal capitalize'>or</h1>
             <span className='center w-full p-3 gap-4 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-md'>
                 <img src="https://blog.hubspot.com/hubfs/image8-2.jpg" alt="" className='w-8 h-8 object-cover rounded-full' />
                 <h1 className='capitalize text-lg font-bold'>continue with google</h1>
             </span>
-            <h1 className='w-full text-center text-xl font-normal capitalize'>or</h1>
         </div>
             :   
         <div className='w-full flex flex-col items-center justify-center gap-6 p-4 rounded-md pt-10 relative'>
